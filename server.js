@@ -29,6 +29,7 @@ app.get("/weather", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server running at ${port} 🗼🗼🗼`);
-});
+// app.listen(port, () => {
+//   console.log(`Server running at ${port} 🗼🗼🗼`);
+// });
+module.exports = app;
